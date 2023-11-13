@@ -158,10 +158,10 @@ document.addEventListener("DOMContentLoaded", function () {
           const celdaHora = document.createElement('td');
           celdaHora.textContent = turno.hora;
           fila.appendChild(celdaHora);
-
+          const statusButton = document.createElement('button');
           const celdaBotones = document.createElement('td');
 
-          const statusButton = document.createElement('button');
+          
           statusButton.className = turno.estado;
           statusButton.textContent = turno.estado.charAt(0).toUpperCase() + turno.estado.slice(1);
           statusButton.setAttribute("data-status", turno.estado); // Añadir el estado actual como un atributo data
