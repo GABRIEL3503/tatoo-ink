@@ -137,7 +137,7 @@ background-position: center;
 
 
   ul {
-    margin-bottom: 65px;
+    margin-bottom: 130px;
     margin-top: 255px;
 
     list-style: none;
@@ -253,5 +253,6 @@ padding: 2px!important; }
 font-size: 45px!important;
 }
 .bodimenu img {
-  max-width:  251px
+  margin-bottom: -124px;
+  max-width: 251px;
  }
